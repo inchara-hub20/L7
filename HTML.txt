@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>row colspan</title>
+    </head>
+    <body>
+        <table border="6">
+            <tr>
+                <th colspan="3">page header</th>
+            </tr>
+            <tr>
+                <th rowspan="2">menu</th>
+                <th colspan="2">adv </th>
+            </tr>
+            <tr>
+                <th>main content area<br>(txt nd img)</th>
+                <th>blog links</th>
+                <tr>
+                    <th colspan="3">footer</th>
+                </tr>
+            </tr>
+        </table>
+    </body>
